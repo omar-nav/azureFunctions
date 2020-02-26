@@ -21,3 +21,8 @@ func new --template "Queue Trigger" --name QueueTriggerJS
 
 added package reference to allow for storage bindings
 WebJobs.Extensions.Storage
+
+to check at \_ Portal
+in storage account
+see storage explorer
+Queues
