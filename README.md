@@ -18,3 +18,6 @@ func new {project name}
 To create a queue-triggered function in a single command, run:
 
 func new --template "Queue Trigger" --name QueueTriggerJS
+
+added package reference to allow for storage bindings
+WebJobs.Extensions.Storage
