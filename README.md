@@ -1,5 +1,14 @@
 # azureFunctions
 
+test with Invoke Web Request command at power shell
+iwr -Method Post `-Uri http://localhost:{port #}/api/onPaymentReceived`
+
+- Headers @{ "Content-Type="application/json" }
+- Body '{}'
+
+to run
+func host start
+
 In the terminal window or from a command prompt, run the following command to create the project and local Git repository:
 func init MyFunctionProj
 
