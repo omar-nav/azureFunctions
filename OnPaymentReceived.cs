@@ -13,6 +13,10 @@ namespace pluralsightfuncs
   public static class OnPaymentReceived
   {
     [FunctionName("OnPaymentReceived")]
+
+    // where MyAppSetting is the name of the application which contains connection string
+    // Queue("orders"), Connection="MyAppSetting"
+
     public static async Task<IActionResult> Run(
         [HttpTrigger(AuthorizationLevel.Function, post", Route = null)] HttpRequest req,
             [Queue("orders")] IAsyncCollector<Order> orderQueue,
